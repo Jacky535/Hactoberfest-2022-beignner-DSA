@@ -8,10 +8,10 @@ def selection_Sort(input_array, size):
 			if input_array[j] < input_array[count]:
 				count= j
 		
-		(input_array[p], input_array[ans]) = (input_array[ans], input_array[p])
+		(input_array[ans], input_array[ans]) = (input_array[ans], input_array[p])
 
-input_array = [23 ,34,355,-45435,3454,3454,5767,-38,34,-655,747]
-size = len(input_array)
+arr = [23 ,34,355,-45435,3454,3454,5767,-38,34,-655,747]
+size = len(arr)
 selection_Sort(input_array, size)
 print('Sorted array:')  # the sorted array in asending order
-print(input_array)
+print(arr)
